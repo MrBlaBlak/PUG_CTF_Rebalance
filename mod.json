@@ -1,0 +1,9 @@
+{
+   "Name": "VetCTF",
+   "Description": "Woo yeah wooo!",
+
+   "LoadPriority": 2,
+   "ConVars": [],
+   "Scripts": [],
+   "Localisation": []
+}
