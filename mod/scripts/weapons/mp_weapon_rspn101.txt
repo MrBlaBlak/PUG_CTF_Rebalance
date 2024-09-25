@@ -146,7 +146,7 @@ WeaponData
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
 
-		"viewkick_air_scale_ads"						"1.5"
+		"viewkick_air_scale_ads"						"2.0"
 		"spread_air_hip"  								"2.0"
 
 		"damage_heavyarmor_nontitan_scale"				"0.35"
@@ -323,7 +323,7 @@ WeaponData
 	"viewkick_scale_min_hipfire"  					"1.5"
 	"viewkick_scale_max_hipfire"  					"2.0"
 	"viewkick_scale_min_ads"  						"1.5"
-	"viewkick_scale_max_ads"  						"2.0"
+	"viewkick_scale_max_ads"  						"2.5"
 	"viewkick_scale_valuePerShot" 					"1.0"
 	"viewkick_scale_valueLerpStart"   				"0"
 	"viewkick_scale_valueLerpEnd" 					"2"

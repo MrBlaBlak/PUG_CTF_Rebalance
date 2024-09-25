@@ -116,7 +116,7 @@ WeaponData
 		"damage_far_value_titanarmor" 					"35"
 		"damage_rodeo" 									"90"
 
-   	 	"damage_very_far_value"							"9"
+   	 	"damage_very_far_value"							"10"
    		"damage_very_far_distance"						"3000"
 
 		"damage_headshot_scale"							"1.5"
