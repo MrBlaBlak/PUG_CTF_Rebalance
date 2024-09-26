@@ -1,7 +1,6 @@
 {
-   "Name": "VetCTF",
-   "Description": "Woo yeah wooo!",
-
+   "Name": "Blak_Rebalance",
+   "Description": "Rebalance mod by MrBlaBlak intended for CompCTF.",
    "LoadPriority": 2,
    "ConVars": [],
    "Scripts": [],

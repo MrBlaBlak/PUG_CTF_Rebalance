@@ -1,0 +1,7 @@
+WeaponData
+{
+	MP_BASE
+	{
+   	 	"damage_very_far_value"							"9"
+	}
+}

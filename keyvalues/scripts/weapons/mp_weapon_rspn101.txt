@@ -1,0 +1,8 @@
+WeaponData
+{
+	MP_BASE
+	{
+		"viewkick_air_scale_ads"						"1.5"
+	}
+	"viewkick_scale_max_ads"  						"2.0"
+}
