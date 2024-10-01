@@ -4,4 +4,8 @@ WeaponData
 	{
 		"viewkick_air_scale_ads"						"1.5"
 	}
+	"viewkick_pitch_hardScale"						"0.3"
+	"viewkick_yaw_hardScale"  						"0.6"
+"zoom_fov"										"50"
+
 }
