@@ -4,9 +4,10 @@
 	
 	"global"
 	{
-		grapple_airAccel					550
-		grapple_gravityFracMin				0.4
-		grapple_gravityFracMax				1.0
+		grapple_airAccel					350
+		grapple_gravityFracMin				0.25
+		grapple_gravityFracMax				0.7
+		grapple_airSpeedMax					220
 		
 	}
 	

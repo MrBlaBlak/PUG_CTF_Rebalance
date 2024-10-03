@@ -1,6 +1,6 @@
 WeaponData
 {
-	"grapple_maxLength"								"700"
-	"grapple_maxLengthVert"							"700"
+	"grapple_maxLength"								"900"
+	"grapple_maxLengthVert"							"900"
 
 }

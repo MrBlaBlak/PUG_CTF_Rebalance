@@ -65,7 +65,7 @@ void function ElectricGrenadeSmokescreen( entity projectile, asset fx )
 	RadiusDamageData radiusDamageData = GetRadiusDamageDataFromProjectile( projectile, owner )
 
 	SmokescreenStruct smokescreen
-	smokescreen.lifetime = 7.0
+	smokescreen.lifetime = 6.0
 	smokescreen.smokescreenFX = fx
 	smokescreen.ownerTeam = owner.GetTeam()
 	smokescreen.damageSource = eDamageSourceId.mp_weapon_grenade_electric_smoke
@@ -77,7 +77,7 @@ void function ElectricGrenadeSmokescreen( entity projectile, asset fx )
 	smokescreen.damageInnerRadius = radiusDamageData.explosionInnerRadius
 	smokescreen.damageOuterRadius = radiusDamageData.explosionRadius
 	smokescreen.dangerousAreaRadius = smokescreen.damageOuterRadius * 1.5
-	smokescreen.damageDelay = 1.0
+	smokescreen.damageDelay = 0.8
 	smokescreen.dpsPilot = radiusDamageData.explosionDamage
 	smokescreen.dpsTitan = radiusDamageData.explosionDamageHeavyArmor
 

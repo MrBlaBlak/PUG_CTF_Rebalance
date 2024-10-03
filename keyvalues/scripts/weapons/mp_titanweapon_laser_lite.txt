@@ -1,0 +1,11 @@
+WeaponData
+{
+	MP_BASE
+	{
+		
+		"damage_near_distance"							"3500"
+		"damage_far_distance" 							"3500"
+		
+	}
+	
+}
