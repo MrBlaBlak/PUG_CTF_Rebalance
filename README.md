@@ -38,15 +38,16 @@
     - Near damage: 35 -> 30
     - Very far damage: 20 -> 15
 
-### Shotguns
-- EVA
-    - Near distance: 100 -> 150
-    - Spread: 8 -> 7.8
-
 ### Anti-Titan Weapons
 - CR
     - Near damage vs pilots: 300 -> 100
-    - Far damage vs pilots: 300 -> 100
+    - Far damage vs pilots: 300 -> 90
+
+
+### Grenadiers
+- SMR
+    - Titan damage: 115 -> 150
+    - Projectile speed: 3300 -> 3600
 
 ### Ordnance
 - Frag Grenades
@@ -56,16 +57,19 @@
 - Electric Smoke
     - Toss time: 0.3 -> 0.25
     - Projectile Speed: 1100 -> 1200
-    - Duration: 5.5 -> 7
+    - Duration: 5.5 -> 6
 
 ### Tacticals
 - Grapple
-    - Grapple length: 1100 -> 700	
-    - Grapple detach speed loss: 460 -> 560
-    - Grapple airAccel: 650 -> 550
-    - Grapple gravityFracMin: 0.25 -> 0.4
-    - Grapple gravityFracMax: 0.7 -> 1.0	
+    - Grapple length: 1100 -> 900	
+    - Grapple detach speed loss: 460 -> 500
+    - Grapple airAccel: 650 -> 350
+    - Grapple airSpeedMax: 650 -> 220
 
+- Phase
+    - Almost instant activation	
+    - Health regen timer freeze on duration
+   	
 ### Global
      - Viewheight: 60 -> 54
      - Firstpersonproxyoffset: -60 -> -54		
