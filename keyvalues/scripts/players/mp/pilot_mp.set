@@ -2,11 +2,9 @@
 "pilot_mp"
 {
 	"global"
-	{	
-        grapple_detachSpeedLossMin              500
-
+	{
+		grapple_detachSpeedLossMin              500
 	}
-	
 }
 
 

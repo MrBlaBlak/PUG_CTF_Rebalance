@@ -160,7 +160,6 @@ void function ServerPhaseShiftPlayerThread( entity ent, float warmupTime, float 
 	if ( ent.IsPlayer() )
 	{
 		ent.EndSignal( "player_embarks_titan" )
-
 		Leech_Disallow( ent )
 	//	EmitSoundOnEntityExceptToPlayer( ent, ent, SHIFTER_PRE_SOUND_3P )
 
@@ -204,7 +203,6 @@ void function ServerPhaseShiftPlayerThread( entity ent, float warmupTime, float 
 	OnThreadEnd(
 		function() : ( ent, oldNoTarget, shiftTime )
 		{
-		
 			if ( IsValid( ent ) )
 			{
 				ent.Signal( "StopPhaseShift" )
@@ -222,7 +220,7 @@ void function ServerPhaseShiftPlayerThread( entity ent, float warmupTime, float 
 				{
 					Leech_Allow( ent )
 					UpdatePlayerHighlightsSettings( ent )
-
+					ent.p.lastDamageTime = ent.p.lastDamageTime + shiftTime //pause health regen timer during phase shift
 					if ( GetSoulFromPlayer( ent ) != null )
 					{
 						entity soul = GetSoulFromPlayer( ent )
@@ -265,7 +263,6 @@ void function ServerPhaseShiftPlayerThread( entity ent, float warmupTime, float 
 						teleFragTarget.TakeDamage( teleFragTarget.GetHealth() + 1, ent, ent, { damageSourceId = eDamageSourceId.phase_shift, scriptType = DF_GIB | DF_BYPASS_SHIELD | DF_SKIPS_DOOMED_STATE } );
 					}
 				}
-ent.p.lastDamageTime = ent.p.lastDamageTime + shiftTime
 			}
 		}
 	)

@@ -1,8 +1,8 @@
 WeaponData
 {
 	"toss_pullout_time"								"0.01667"
-	"toss_time"										"0.01667"
-	"toss_overhead_time"							"0.01667"
+	"toss_time"									"0.01667"
+	"toss_overhead_time"								"0.01667"
 	"holster_time"									"0.01667"
 	"deploy_time" 									"0.01667"
 	"lower_time"  									"0.01667"

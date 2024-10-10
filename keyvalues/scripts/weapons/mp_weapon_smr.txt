@@ -1,12 +1,10 @@
 WeaponData
-{	
+{
 	"projectile_launch_speed"						"3600"
+
 	MP_BASE
 	{
-		
 		"damage_near_value_titanarmor"					"150"
 		"damage_far_value_titanarmor" 					"150"
-		
 	}
-
 }

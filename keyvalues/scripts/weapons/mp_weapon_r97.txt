@@ -1,0 +1,8 @@
+WeaponData
+{
+	MP_BASE
+	{
+	
+		"spread_air_hip"  								"1.0"
+	}
+}

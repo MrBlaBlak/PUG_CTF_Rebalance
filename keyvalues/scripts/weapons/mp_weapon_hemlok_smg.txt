@@ -4,4 +4,29 @@ WeaponData
 	{
 		"damage_far_value"								"17"
 	}
+
+RUI_CrosshairData
+	{
+		DefaultArgs
+		{
+			adjustedSpread				weapon_spread
+			adsFrac 					player_zoomFrac
+			isSprinting					player_is_sprinting
+			isReloading					weapon_is_reloading
+			teamColor					crosshair_team_color
+			isAmped						weapon_is_amped
+		    crosshairMovementX          crosshair_movement_x
+		    crosshairMovementY          crosshair_movement_y
+		}
+
+		Crosshair_1
+		{
+			"ui"						"ui/crosshair_alternator"
+			"base_spread"				"100.0"
+			Args
+			{
+				isFiring				weapon_is_firing
+			}
+		}
+	}
 }

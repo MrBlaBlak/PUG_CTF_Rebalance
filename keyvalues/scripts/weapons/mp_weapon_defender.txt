@@ -3,6 +3,6 @@ WeaponData
 	MP_BASE
 	{
 		"damage_near_value"   							"100"
-		"damage_far_value"								"90"
+		"damage_far_value"								"100"
 	}
 }

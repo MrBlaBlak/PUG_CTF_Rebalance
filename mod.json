@@ -1,8 +1,17 @@
 {
-   "Name": "Blak_Rebalance",
-   "Description": "Rebalance mod by MrBlaBlak intended for CompCTF.",
-   "LoadPriority": 2,
-   "ConVars": [],
-   "Scripts": [],
-   "Localisation": []
+    "Name": "PugRebalance",
+    "Description": "Rebalance mod by MrBlaBlak for CompCTF at 120hp.",
+    "Version": "3.0.0",
+    "LoadPriority": 2,
+    "RequiredOnClient": true,
+    "ConVars": [],
+    "Scripts": [
+        {
+            "Path": "gamemodes/sh_riff_noaimassist.gnut",
+            "RunOn": "( CLIENT || SERVER ) && MP",
+            "ClientCallback": {"After": "Riff_NoAAInit"},
+            "ServerCallback": {"After": "Riff_NoAAInit"}
+        }
+    ],
+    "Localisation": ["resource/noaa_%language%.txt"]
 }
